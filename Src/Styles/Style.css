@@ -75,6 +75,14 @@ nav ul li a {
   margin-left: 20rem;
 }
 
+.Titulo2 {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  margin: 2rem;
+  margin-left: 10rem;
+}
+
 .Texto {
   font-family: Source Sans Pro, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
