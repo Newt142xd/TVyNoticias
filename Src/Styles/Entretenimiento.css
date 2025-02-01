@@ -128,20 +128,51 @@ nav ul li a {
 
 .Textoo1 {
   font-family: "Courier New", Courier, monospace;
-  font-weight: 600;
+  font-weight: 700;
   position: relative;
   margin: 0 auto; /* Centrado horizontal */
   color: rgb(255, 255, 255);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 40%;
+  width: 45%;
   height: 180px;
+  padding: 1px;
+
+  margin-right: 53rem;
+  order: 1;
+  font-size: clamp(16px, 2.5vw, 8px);
+
+  line-height: 1.6;
+}
+
+.Textoo2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: relative;
+  margin: 0 auto; /* Centrado horizontal */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 25%;
+
   padding: 1px;
   margin-right: 53rem;
   order: 1;
-  font-size: clamp(16px, 2.5vw, 2px);
+  font-size: clamp(16px, 2.5vw, 8px);
   text-align: unset;
   line-height: 1.6;
+}
+
+.Textoo3 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: relative;
   color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  padding: 1px;
+  margin-right: 53rem;
+  font-size: clamp(16px, 2.5vw, 8px);
+  text-align: unset;
+  line-height: 1.6;
 }
 
 .Texto {
@@ -321,6 +352,23 @@ nav ul li a {
   width: 30rem;
   height: 470px;
   position: relative;
+  object-fit: cover;
+  margin-left: 44rem;
+}
+
+.Imagenn1 {
+  width: 900px;
+  height: 600px;
+  position: relative;
+  object-fit: cover;
+  margin-left: 10rem;
+}
+
+.Imagenn2 {
+  width: 30rem;
+  height: 470px;
+  margin-top: 50rem;
+  position: absolute;
   object-fit: cover;
   margin-left: 44rem;
 }
