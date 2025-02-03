@@ -56,7 +56,7 @@ nav ul li a {
   background-color: #000000;
   justify-content: space-between; /* Cambiado para mejor distribución */
   flex-wrap: wrap;
-  padding: 20px;
+  padding: 30px;
   gap: 20px; /* Añadido para espaciado uniforme */
 }
 
@@ -69,12 +69,22 @@ nav ul li a {
   margin-left: 10rem;
 }
 
-.Title1 {
+.Titlee {
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
   text-align: center;
   color: aliceblue;
   margin: 2rem;
+  margin-top: -10rem;
+  margin-left: 10rem;
+}
+
+.Title1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  text-align: center;
+  color: aliceblue;
+  margin: 12rem;
   margin-left: 10rem;
 }
 
@@ -126,8 +136,80 @@ nav ul li a {
   color: rgb(255, 255, 255);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 45%;
+  height: 340px;
+  padding: 1px;
+  margin-right: 53rem;
+  order: 1;
+  font-size: clamp(16px, 2.5vw, 8px);
+  text-align: unset;
+  line-height: 1.6;
+}
+
+.textoo1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  margin: 0 auto; /* Centrado horizontal */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
   height: 220px;
   padding: 1px;
+  margin-top: 10rem;
+  margin-right: 53rem;
+  order: 1;
+  font-size: clamp(16px, 2.5vw, 8px);
+  text-align: unset;
+  line-height: 1.6;
+}
+
+.textoo2 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  margin: 0 auto; /* Centrado horizontal */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  height: 220px;
+  padding: 1px;
+  margin-top: 25rem;
+  margin-right: 53rem;
+  order: 1;
+  font-size: clamp(16px, 2.5vw, 8px);
+  text-align: unset;
+  line-height: 1.6;
+}
+
+.textoo3 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  margin: 0 auto; /* Centrado horizontal */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  height: 220px;
+  padding: 1px;
+  margin-top: 45rem;
+  margin-right: 53rem;
+  order: 1;
+  font-size: clamp(16px, 2.5vw, 8px);
+  text-align: unset;
+  line-height: 1.6;
+}
+
+.textoo4 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  margin: 0 auto; /* Centrado horizontal */
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+  height: 220px;
+  padding: 1px;
+  margin-top: 55rem;
   margin-right: 53rem;
   order: 1;
   font-size: clamp(16px, 2.5vw, 8px);
@@ -184,6 +266,112 @@ nav ul li a {
   margin-right: 53rem;
   font-size: clamp(16px, 2.5vw, 8px);
   text-align: unset;
+  line-height: 1.6;
+}
+
+.Textoo4 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  height: 180px;
+  margin-top: 117rem;
+  margin-right: 53rem;
+  font-size: clamp(16px, 2.5vw, 8px);
+  line-height: 1.6;
+}
+
+.Textoo5 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  height: 180px;
+  margin-top: 127rem;
+  margin-right: 53rem;
+
+  font-size: clamp(16px, 2.5vw, 8px);
+  line-height: 1.6;
+}
+
+.Textoo6 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: relative;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  height: 180px;
+  font-size: clamp(16px, 2.5vw, 8px);
+  line-height: 1.6;
+}
+
+.Textoo7 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  height: 180px;
+  margin-top: 57rem;
+  font-size: clamp(16px, 2.5vw, 8px);
+  line-height: 1.6;
+}
+
+.Textoo8 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  height: 180px;
+  margin-top: 67rem;
+  font-size: clamp(16px, 2.5vw, 8px);
+  line-height: 1.6;
+}
+
+.Textoo9 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  height: 180px;
+  margin-top: 74rem;
+  font-size: clamp(16px, 2.5vw, 8px);
+  line-height: 1.6;
+}
+
+.texto91 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  height: 180px;
+  margin-top: 78rem;
+  font-size: clamp(16px, 2.5vw, 8px);
+  line-height: 1.6;
+}
+
+.texto92 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  position: absolute;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 95%;
+  height: 180px;
+  margin-top: 83rem;
+  font-size: clamp(16px, 2.5vw, 8px);
   line-height: 1.6;
 }
 
@@ -371,6 +559,7 @@ nav ul li a {
 .Imagenn1 {
   width: 1000px;
   height: 1000px;
+  margin: 7rem;
   margin-left: 10rem;
   position: relative;
 }
@@ -378,7 +567,7 @@ nav ul li a {
 .Imagenn2 {
   width: 30rem;
   height: 470px;
-  margin-top: -1rem;
+  margin-top: -4rem;
   position: relative;
   object-fit: cover;
   margin-left: 44rem;
@@ -389,6 +578,7 @@ nav ul li a {
   height: 470px;
   position: relative;
   object-fit: cover;
+  margin-top: -10rem;
   margin-left: 25rem;
 }
 
